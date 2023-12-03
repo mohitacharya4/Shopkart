@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Shopkart.Services.CouponAPI;
 using Shopkart.Services.CouponAPI.Data;
 
-namespace Shopkart.Services.CoupinAPI
+namespace Shopkart.Services.CouponAPI
 {
     public class Program
     {
