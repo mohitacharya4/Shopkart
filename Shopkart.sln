@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{E8227BDB-E303-40F5-BF4A-9F88C5A81736}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{A4D3DFA7-3D3C-44AD-BEEE-3614CA511B6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{927FF245-1BFF-4810-89CB-8CB0A967D483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{29BD3A5D-F86D-4BBA-8662-7F0259ADED9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopkart.Services.CouponAPI", "Shopkart.Services.CoupinAPI\Shopkart.Services.CouponAPI.csproj", "{64A865FC-4C78-4C24-AF77-87D18CCFE611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64A865FC-4C78-4C24-AF77-87D18CCFE611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A865FC-4C78-4C24-AF77-87D18CCFE611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A865FC-4C78-4C24-AF77-87D18CCFE611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A865FC-4C78-4C24-AF77-87D18CCFE611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64A865FC-4C78-4C24-AF77-87D18CCFE611} = {29BD3A5D-F86D-4BBA-8662-7F0259ADED9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69005126-417B-4A63-9512-E55212C2AC49}
+	EndGlobalSection
+EndGlobal
